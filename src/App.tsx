@@ -63,13 +63,26 @@ function App() {
           totalTodos={todos.length}
         />
 
-        <div className="w-full max-w-[800px] flex items-start justify-start mt-10 mb-2">
+        <div className="w-full max-w-[800px] flex items-center justify-between mt-10 mb-2">
           <button
-            className="px-4 py-2 text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300 transition duration-200 ease-in-out"
+            className="flex items-center px-6 py-3 text-white bg-indigo-500 rounded-full hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-300 transition duration-200 ease-in-out"
             onClick={toggleSortOrder}
-            title={isAscending ? "Sort Descending" : "Sort Ascending"}
           >
-            ↕
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="currentColor"
+              className="w-5 h-5 mr-2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3 10h18M3 14h18M3 18h18"
+              />
+            </svg>
+            {isAscending ? "Sort Descending" : "Sort Ascending"}
           </button>
         </div>
 
