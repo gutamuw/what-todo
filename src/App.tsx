@@ -3,7 +3,6 @@ import "./App.css";
 import TodoList from "./components/TodoList";
 import { Todo } from "./models/Todo";
 import ProgressCircle from "./components/ProgressCircle";
-import { preview } from "vite";
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
