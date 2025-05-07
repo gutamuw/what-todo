@@ -1,6 +1,14 @@
 # What todo?
 
-Ett enkel todolist-app, tänkt för en mobil enhet, med React.
+En enkel todolist-app, optimerad för mobila enheter, byggd med React.
+
+I appen kan du:
+
+- Lägga till en todo.
+- Uppdatera en befintlig todo.
+- Ta bort en todo.
+- Markera en todo som "klar" genom att trycka på den.
+- Sortera todos efter datum, antingen stigande eller fallande.
 
 ## Kom igång
 
