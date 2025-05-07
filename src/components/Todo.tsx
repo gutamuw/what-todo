@@ -24,6 +24,9 @@ const TodoItem: React.FC<TodoItemProps> = ({
     >
       <div className="flex-1">
         <h2 className="text-lg font-semibold text-gray-800">{todo.title}</h2>
+        <p className="text-xs text-gray-500">
+          {new Date(todo.createdAt).toLocaleString()}
+        </p>
         <p
           className={`text-sm ${
             todo.completed ? "text-emerald-700" : "text-gray-600"

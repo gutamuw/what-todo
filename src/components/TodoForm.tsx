@@ -16,6 +16,7 @@ const TodoForm: React.FC<TodoFormProps> = ({ addTodo }) => {
       id: Date.now(),
       title,
       completed: false,
+      createdAt: new Date(),
     };
 
     addTodo(newTodo);
@@ -23,7 +24,7 @@ const TodoForm: React.FC<TodoFormProps> = ({ addTodo }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex items-center gap-4 mb-6">
+    <form onSubmit={handleSubmit} className="flex items-center gap-4">
       <input
         type="text"
         placeholder="Add a new task..."
@@ -33,7 +34,7 @@ const TodoForm: React.FC<TodoFormProps> = ({ addTodo }) => {
       />
       <button
         type="submit"
-        className="px-4 py-2 text-white bg-green-500 rounded-lg cursor-pointer hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300 transition duration-200 ease-in-out"
+        className="px-4 py-2 text-white bg-blue-500 rounded-lg cursor-pointer hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-green-300 transition duration-200 ease-in-out"
       >
         Add Task
       </button>
