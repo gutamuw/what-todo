@@ -1,6 +1,6 @@
 # What todo?
 
-Ett enkel todolist-app med React.
+Ett enkel todolist-app, tänkt för en mobil enhet, med React.
 
 ## Kom igång
 
