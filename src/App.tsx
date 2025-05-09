@@ -37,7 +37,7 @@ function App() {
 
   const sortTodos = (todos: Todo[], isAscending: boolean) => {
     const sortedTodos = [...todos].sort((a, b) => {
-      if (isAscending) {
+      if (!isAscending) {
         return a.createdAt > b.createdAt ? 1 : -1;
       } else {
         return a.createdAt < b.createdAt ? 1 : -1;
@@ -82,7 +82,7 @@ function App() {
                 d="M3 10h18M3 14h18M3 18h18"
               />
             </svg>
-            {isAscending ? "Sort Descending" : "Sort Ascending"}
+            {isAscending ? "Sort Ascending" : "Sort Descending"}
           </button>
         </div>
 
