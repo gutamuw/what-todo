@@ -1,34 +1,36 @@
-# What todo?
+# What Todo?
 
-En enkel todolist-app, optimerad för mobila enheter, byggd med React.
+A simple and responsive todo app built with React.  
+You can add, edit, and delete todos. The app is optimized for mobile devices, but works great on desktop as well.
 
-I appen kan du:
+## Features
 
-- Lägga till en todo.
-- Uppdatera en befintlig todo.
-- Ta bort en todo.
-- Markera en todo som "klar" genom att trycka på den.
-- Sortera todos efter datum, antingen stigande eller fallande.
+- Add new todos
+- Edit existing todos
+- Delete todos
+- Mark todos as completed by tapping them
+- Sort todos by date (ascending or descending)
 
-## Kom igång
+## Getting Started
 
-För att köra projektet lokalt, följ dessa steg:
+To run the project locally:
 
-1. **Installera alla beroenden**
-   Kör följande kommando i projektets rotmapp:
+1. **Install dependencies**
 
    ```sh
    npm install
    ```
 
-2. **Starta utvecklingsservern**
-   När installationen är klar, starta appen med:
+2. **Start the development server**
 
    ```sh
    npm run dev
    ```
 
-3. **Öppna i webbläsaren**
-   Gå till `http://localhost:3000` (eller den port som anges i terminalen) för att se projektet i din webbläsare.
+3. **Open in your browser**
+
+   Visit [http://localhost:3000](http://localhost:3000) (or the port shown in your terminal) to use the app.
 
 ---
+
+Enjoy your productivity!
