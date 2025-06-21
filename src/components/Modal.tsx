@@ -1,5 +1,5 @@
 import TodoForm from "./TodoForm";
-import { Todo } from "../models/Todo";
+import type { Todo } from "../models/Todo";
 
 interface ModalProps {
   addTodo: (newTodo: Todo) => void;

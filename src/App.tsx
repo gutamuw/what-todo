@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import TodoList from "./components/TodoList";
-import { Todo } from "./models/Todo";
+import type { Todo } from "./models/Todo";
 import ProgressCircle from "./components/ProgressCircle";
 
 function App() {

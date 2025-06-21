@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Todo } from "../models/Todo";
+import type { Todo } from "../models/Todo";
 import TodoItem from "./Todo";
 import { AnimatePresence, motion } from "framer-motion";
 import { Modal } from "./Modal";

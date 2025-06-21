@@ -1,5 +1,3 @@
-import { div } from "framer-motion/client";
-
 interface ProgressCircleProps {
   progress: number;
   completedTodos: number;

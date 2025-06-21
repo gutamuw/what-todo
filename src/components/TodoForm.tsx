@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Todo } from "../models/Todo";
+import type { Todo } from "../models/Todo";
 
 interface TodoFormProps {
   addTodo: (newTodo: Todo) => void;
